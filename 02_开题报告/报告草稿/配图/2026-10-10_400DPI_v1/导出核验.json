@@ -1,0 +1,28 @@
+[
+  {
+    "file": "requirements-functions-modules.drawio.png",
+    "pixels": [
+      5333,
+      4583
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ],
+    "source_sha256": "fcddf464343a5c65cb15fc68d493c290a843827873a18935f65200850725bf33",
+    "effective_dpi_at_word_width": 979.2
+  },
+  {
+    "file": "system-architecture.drawio.png",
+    "pixels": [
+      5333,
+      4583
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ],
+    "source_sha256": "aa2a45fdb86d742048cc3da90e04c47e071ae996c7f8f1f2cf6b04985a397f8a",
+    "effective_dpi_at_word_width": 979.2
+  }
+]
