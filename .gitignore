@@ -14,20 +14,20 @@ Desktop.ini
 ~$*
 
 # STM32 and embedded build outputs
-05_STM32代码/Debug/
-05_STM32代码/Release/
-05_STM32代码/build/
-05_STM32代码/.pio/
-05_STM32代码/Objects/
-05_STM32代码/ Listings/
-05_STM32代码/*.uvguix.*
-05_STM32代码/*.dep
-05_STM32代码/**/*.o
-05_STM32代码/**/*.d
-05_STM32代码/**/*.elf
-05_STM32代码/**/*.hex
-05_STM32代码/**/*.bin
-05_STM32代码/**/*.map
+05_STM32_Code/Debug/
+05_STM32_Code/Release/
+05_STM32_Code/build/
+05_STM32_Code/.pio/
+05_STM32_Code/Objects/
+05_STM32_Code/ Listings/
+05_STM32_Code/*.uvguix.*
+05_STM32_Code/*.dep
+05_STM32_Code/**/*.o
+05_STM32_Code/**/*.d
+05_STM32_Code/**/*.elf
+05_STM32_Code/**/*.hex
+05_STM32_Code/**/*.bin
+05_STM32_Code/**/*.map
 
 # Python caches, if tooling is added later
 __pycache__/
