@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "diagram": "system-architecture.drawio",
+  "image": "system-architecture.drawio.png",
+  "pixels": [
+    5333,
+    4667
+  ],
+  "dpi": [
+    399.9992,
+    399.9992
+  ],
+  "nodes": 29,
+  "edges": 18,
+  "renderer": "Pillow; draw.io XML source retained and embedded in PNG",
+  "references": [
+    "../../Reference_Figures/系统架构图.JPG",
+    "../../Reference_Figures/系统架构图1.JPG",
+    "../../Reference_Figures/系统总体架构图2.JPG"
+  ],
+  "sha256": "68fd03f09f3acec7c60fe750f881451e6755d2eb0e1c4a920513d04f91272ec9"
+}

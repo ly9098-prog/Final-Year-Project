@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-17",
+  "renderer": "Canonical YAML -> skill CLI draw.io/SVG; SVG baseline compatibility normalization -> librsvg -> PNG",
+  "desktop_available": false,
+  "pixels": [
+    5567,
+    6067
+  ],
+  "dpi": [
+    399.9992,
+    399.9992
+  ],
+  "source_sha256": "52ccf4b94dc8c9b5e52184c8b02de6b8c05976dd8f923275e87e5a50dfcd10ec",
+  "png_sha256": "27fbf51e64015747acc7362b00b200fac725cf8be6ffcea67b69aec856eeea01",
+  "figure_width_emu": 4980000,
+  "font_floor_px": 32,
+  "source_svg_width": 1336,
+  "minimum_font_pt_at_word_width": 9.392239143759726,
+  "palette": "ieee-bw",
+  "colorblindSafe": true,
+  "grayscaleSafe": true
+}

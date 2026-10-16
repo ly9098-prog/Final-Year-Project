@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="coffee-system-v2" name="系统总体架构图">
+    <mxGraphModel adaptiveColors="auto" background="#FFFFFF" grid="0" page="1" pageWidth="1280" pageHeight="1120">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="app" value="" style="rounded=0;html=1;fillColor=#F8F8F8;strokeColor=#8A8A8A;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1240" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="app-title" value="&lt;b&gt;应用层&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="28" width="230" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="net" value="" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#8A8A8A;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="1240" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="net-title" value="&lt;b&gt;网络层&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="298" width="230" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="hw" value="" style="rounded=0;html=1;fillColor=#F8F8F8;strokeColor=#8A8A8A;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="1240" height="620" as="geometry"/>
+        </mxCell>
+        <mxCell id="hw-title" value="&lt;b&gt;感知与控制层&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=none;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="28" y="488" width="230" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="mini" value="&lt;b&gt;微信小程序&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;实时监控 / 配方编辑&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;历史查询 / 远程操作&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="75" width="270" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="cloud" value="&lt;b&gt;云端服务&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;配方与记录管理&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;阶段异常分析&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="75" width="280" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="db" value="&lt;b&gt;数据库&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;配方 / 采样 / 事件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="75" width="250" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="wifi" value="WiFi通信模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="270" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mqtt" value="MQTT服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="335" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mcu" value="&lt;b&gt;STM32主控制器&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;温度PID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;流量PID&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;称重终止&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;冲煮状态机&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;本地安全保护&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=28;fontColor=#171717;spacing=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="280" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="temp" value="水温传感器&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;DS18B20&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="oled" value="OLED显示屏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="580" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-temp" source="temp" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.06956521739130435;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-oled" source="mcu" target="oled" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.06956521739130435;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ambient" value="环境温度传感器&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;NTC&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="658" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="heat" value="PTC及功率驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="658" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-ambient" source="ambient" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.2391304347826087;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-heat" source="mcu" target="heat" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.2391304347826087;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="flow" value="流量传感器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="736" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="act" value="调流执行器及驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="736" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-flow" source="flow" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.40869565217391307;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-act" source="mcu" target="act" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.40869565217391307;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="weight" value="称重传感器&lt;br&gt;&lt;span style=&quot;font-size:24px;font-weight:normal&quot;&gt;HX711&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="814" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="valve" value="出水阀及驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="814" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-weight" source="weight" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5782608695652174;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-valve" source="mcu" target="valve" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5782608695652174;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="keys" value="触摸按键 / 电位器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="892" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="protect" value="继电器 / 保护电路" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="892" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-keys" source="keys" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.7478260869565218;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-protect" source="mcu" target="protect" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.7478260869565218;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mem" value="RTC / Flash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="970" width="270" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="buzzer" value="蜂鸣器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=26;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="970" width="250" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="in-mem" source="mem" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.9173913043478261;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="out-buzzer" source="mcu" target="buzzer" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=1.0;exitY=0.9173913043478261;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="power" value="电源与稳压模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#262626;strokeWidth=1.6;fontFamily=SimSun;fontSize=24;fontColor=#171717;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1058" width="280" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="power-mcu" source="power" target="mcu" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mini-cloud" source="mini" target="cloud" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mini-cloud-label" value="HTTPS" vertex="1" parent="1" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=24;">
+          <mxGeometry x="486.0" y="106" width="68.0" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="cloud-db" source="cloud" target="db" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mqtt-cloud" source="mqtt" target="cloud" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="mqtt-cloud-label" value="遥测 / 命令" vertex="1" parent="1" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=24;">
+          <mxGeometry x="780.0" y="259" width="140.0" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="wifi-mqtt" source="wifi" target="mqtt" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wifi-mqtt-label" value="MQTT" vertex="1" parent="1" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=24;">
+          <mxGeometry x="492.0" y="334" width="56.0" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="mcu-wifi" source="mcu" target="wifi" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#262626;strokeWidth=1.6;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.5;exitY=0.0;entryX=0.5;entryY=1.0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="515"/>
+              <mxPoint x="295" y="515"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcu-wifi-label" value="UART" vertex="1" parent="1" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=SimSun;fontSize=24;">
+          <mxGeometry x="492.0" y="478" width="56.0" height="32" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

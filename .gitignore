@@ -12,6 +12,7 @@ Desktop.ini
 *.temp
 *.bak
 ~$*
+.drawio_work/
 
 # STM32 and embedded build outputs
 05_STM32_Code/Debug/

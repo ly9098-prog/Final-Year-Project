@@ -29,7 +29,8 @@
 3. 编辑开题报告：[Word 草稿](02_Project_Proposal/Proposal_Drafts/手冲咖啡毕设开题报告.docx)；查阅[文字稿](02_Project_Proposal/Proposal_Drafts/手冲咖啡毕设开题报告.md)。
 4. 查看方案调整：[控制与异常检测范围调整记录](01_Requirements_and_Tasks/Confirmation_Records/控制方案与异常检测范围调整记录_2026-10-09.md)；[异常检测选型比较](04_System_Design/Algorithm_Notes/异常检测算法选型比较_2026-10-09.md)。
 5. 提交前查看：[报告使用说明](02_Project_Proposal/Proposal_Drafts/使用说明.md)，确认身份信息、导师意见、进度安排与方案待验证事项。
-6. 查看提交材料：[开题报告提交版](07_Defense_and_Submission/手冲咖啡毕设开题报告_提交版_2026-10-13_v1.docx)；[任务书提交版](07_Defense_and_Submission/手冲咖啡毕设任务书_提交版_2026-10-13_v2.docx)；[提交材料说明](07_Defense_and_Submission/提交材料说明_2026-10-13_v2.md)。
+6. 查看提交材料：[开题报告提交版](07_Defense_and_Submission/手冲咖啡毕设开题报告_提交版_2026-10-17_v3.docx)；[任务书提交版](07_Defense_and_Submission/手冲咖啡毕设任务书_提交版_2026-10-13_v2.docx)；[提交材料说明](07_Defense_and_Submission/提交材料说明_2026-10-13_v2.md)。
+7. 编辑系统架构图：[图源与400 DPI图片](04_System_Design/Figures/2026-10-17_Architecture_v3/)；查看[本轮配图核验记录](07_Defense_and_Submission/系统架构图优化与核验记录_2026-10-17_v3.md)。
 
 > Word 与 Markdown 是两份独立文件，修改其中一份不会自动同步另一份。报告状态及性能结论以实际审阅和实验为准。
 
@@ -68,8 +69,8 @@ Final-Year-Project/
 ├── 05_STM32_Code/                    # STM32 固件代码专用目录；当前为空
 ├── 06_Thesis/                        # 已预留，暂无文件
 ├── 07_Defense_and_Submission/
-│   ├── 手冲咖啡毕设开题报告_提交版_2026-10-13_v1.docx
-│   ├── 手冲咖啡毕设开题报告_提交版_2026-10-13_v1.pdf
+│   ├── 手冲咖啡毕设开题报告_提交版_2026-10-17_v3.docx
+│   ├── 手冲咖啡毕设开题报告_提交版_2026-10-17_v3.pdf
 │   ├── 手冲咖啡毕设任务书_提交版_2026-10-13_v2.docx
 │   ├── 手冲咖啡毕设任务书_提交版_2026-10-13_v2.pdf
 │   └── 提交材料说明_2026-10-13_v2.md
@@ -87,7 +88,7 @@ Final-Year-Project/
 | `04_System_Design` | 总体方案说明、架构图、电路图导出件、控制流程图、Algorithm_Notes、通信接口说明及界面截图，不含源代码 | 已新增 `Algorithm_Notes`；后续按需增加 `总体方案`、`硬件设计说明`、`软件设计说明`、`接口说明` |
 | `05_STM32_Code` | STM32 固件源码及构建所必需的工程配置；不存放实验/测试文档、测试脚本或其他平台源码 | 按固件模块组织源码与必要配置；当前为空 |
 | `06_Thesis` | 论文正文、Figures、排版文件和修改记录 | `草稿`、`Figures`、`修改记录`、`定稿` |
-| `07_Defense_and_Submission` | 开题报告与任务书提交版、演示文稿、演示素材、最终提交清单及提交材料 | 当前为2026-10-13开题报告v1及任务书v2的Word/PDF和提交说明；任务书已精简至2页，v1归档 |
+| `07_Defense_and_Submission` | 开题报告与任务书提交版、演示文稿、演示素材、最终提交清单及提交材料 | 当前为2026-10-17开题报告v3及2026-10-13任务书v2的Word/PDF和提交说明；报告6页，任务书2页 |
 | `99_Archive` | 过时版本、阶段备份及已不再编辑的材料 | 按阶段或日期建立目录，例如 `2026-10-03_开题阶段` |
 
 后续子目录目前只做规划，不创建空的多级目录；新增材料时按用途建立即可。
